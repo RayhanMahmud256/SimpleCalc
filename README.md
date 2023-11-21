@@ -15,7 +15,7 @@ This app is build on java and android sdk framework. Only basic operation like m
 <h2>User Interface</h2>
 <br>
 <div align="center">
-<img src="https://github.com/RayhanMahmud256/SimpleCalc/assets/99743908/b49dbf30-47fa-4132-98eb-ef9e6538c3c4" width="300">
+<img src="https://github.com/RayhanMahmud256/SimpleCalc/assets/99743908/e1259e06-4eb3-42f8-a23b-a5c6ea607939" width="300">
 </div>
 
 <br>
