@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/EditId1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="First number"
+        android:inputType="number"
+        android:background="@drawable/editshape"
+        android:padding="10dp"
+        android:textColorHint="@color/black"/>
+
+    <EditText
+        android:id="@+id/EditId2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Second number"
+        android:background="@drawable/editshape"
+        android:padding="10dp"
+        android:inputType="number"
+        android:layout_marginTop="15dp"
+        android:textColorHint="@color/black"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+
+        <Button
+            android:onClick="BtnId1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".25"
+            android:layout_marginTop="10dp"
+            android:layout_margin="5dp"
+            android:text="+"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+
+        <Button
+            android:onClick="BtnId2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".25"
+            android:layout_marginTop="10dp"
+            android:layout_margin="5dp"
+            android:text="-"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+
+        <Button
+            android:onClick="BtnId3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".25"
+            android:layout_marginTop="10dp"
+            android:layout_margin="5dp"
+            android:text="*"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+
+        <Button
+            android:onClick="BtnId4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".25"
+            android:layout_marginTop="10dp"
+            android:layout_margin="5dp"
+            android:text="/"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/TxtId1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Result will be here"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+</LinearLayout>
